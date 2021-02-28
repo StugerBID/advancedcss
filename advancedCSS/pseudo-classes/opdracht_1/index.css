@@ -1,0 +1,63 @@
+body {
+  background-color: gray;
+  font-family: "Shippori Mincho", serif;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: darkblue;
+  display: flex;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  padding: 0;
+}
+
+ul li {
+  margin-right: 10px;
+}
+
+.currentPage {
+  background-color: #6699cc;
+}
+
+h3 {
+  color: purple;
+}
+
+h4 {
+  color: blue;
+}
+
+/* pseudo classes */
+
+nav li:hover {
+  background-color: lightblue;
+}
+ul li.selected :hover {
+  background-color: yellow;
+}
+
+footer span a:hover {
+  color: lightblue;
+  font-weight: bold;
+  font-weight: 900;
+}
+
+div a:active {
+  color: red;
+  font-style: oblique;
+}
+
+div p a:visited {
+  color: yellow;
+}
+
+input:focus {
+  color: green;
+  font-size: 20px;
+  border: 1px solid aquamarine;
+}
