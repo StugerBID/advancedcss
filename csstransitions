@@ -1,0 +1,22 @@
+oplossing 1-
+
+.anim:active .ball-two {
+left: 150px;
+	transition: left .5s ease-in-out;
+	transition-delay: left .180s ease-in-out;
+	transition-duration: left .5s ease-in-out;
+}
+
+oplossing 2-
+
+div {
+    width: 100px;
+	transition: width 2s;
+    height: 100px;
+    background: red;
+
+}
+
+div:hover {
+    width: 300px;
+}
